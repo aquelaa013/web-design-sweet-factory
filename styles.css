@@ -1,0 +1,82 @@
+body {
+    background-image:url(./assets/hearts.jpg);
+    background-size: cover;
+}
+
+h1, .card-text {
+     font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        color:#322C2B;
+        font-size: 4.5em;
+}
+
+.delicious {
+    color: #c91e1e;
+}
+
+.photos {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float:right;
+}
+
+.card {
+    width: 45%;
+    margin-top: 100px;
+    background-color: rgb(255, 226, 226);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid rgb(135, 133, 162);
+
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    font-size:small;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+@media (min-width:319px) and (max-width:480px) {
+    body {
+        background-size: 300%
+    }
+
+h1, .card-text {
+    font-size:3rem
+}
+
+.photos {
+    width: 80%;
+    height: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 50%;
+}
+.card-text {
+    font-size:small;
+    margin-right: 10px;
+    text-align:center;
+
+}
+
+.card {
+    width: 35%;
+    margin-top: 50px;
+    display: inline;
+}
+}
